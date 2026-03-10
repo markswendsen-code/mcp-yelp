@@ -1,0 +1,42 @@
+{
+  "name": "@striderlabs/mcp-yelp",
+  "version": "0.1.0",
+  "description": "MCP server for Yelp - let AI agents search restaurants, read reviews, view photos, and find businesses",
+  "main": "dist/index.js",
+  "bin": {
+    "striderlabs-mcp-yelp": "dist/index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "yelp",
+    "restaurants",
+    "reviews",
+    "ai-agent",
+    "strider",
+    "model-context-protocol",
+    "browser-automation",
+    "playwright",
+    "local-search"
+  ],
+  "author": "Strider Labs <hello@striderlabs.ai>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markswendsen-code/mcp-yelp"
+  },
+  "homepage": "https://striderlabs.ai",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "playwright": "^1.40.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "mcpName": "io.github.markswendsen-code/yelp"
+}

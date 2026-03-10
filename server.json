@@ -1,0 +1,70 @@
+{
+  "name": "yelp",
+  "display_name": "Yelp MCP Server",
+  "description": "MCP server that enables AI agents to interact with Yelp - the leading platform for local business discovery. Search restaurants, read reviews, view photos, check hours, find deals, and discover trending spots.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markswendsen-code/mcp-yelp"
+  },
+  "homepage": "https://striderlabs.ai",
+  "author": "Strider Labs <hello@striderlabs.ai>",
+  "license": "MIT",
+  "categories": ["restaurants", "reviews", "local-search", "discovery"],
+  "tools": [
+    {
+      "name": "yelp_search_restaurants",
+      "description": "Search restaurants by location, cuisine, and price"
+    },
+    {
+      "name": "yelp_search_businesses",
+      "description": "Search any type of business"
+    },
+    {
+      "name": "yelp_get_business_details",
+      "description": "Get detailed business information"
+    },
+    {
+      "name": "yelp_get_reviews",
+      "description": "Get reviews with ratings and text"
+    },
+    {
+      "name": "yelp_get_photos",
+      "description": "Get business photos"
+    },
+    {
+      "name": "yelp_get_menu",
+      "description": "Get restaurant menu items"
+    },
+    {
+      "name": "yelp_get_hours",
+      "description": "Get business hours"
+    },
+    {
+      "name": "yelp_find_similar",
+      "description": "Find similar businesses"
+    },
+    {
+      "name": "yelp_get_trending",
+      "description": "Get trending spots"
+    },
+    {
+      "name": "yelp_get_collections",
+      "description": "Get curated collections"
+    },
+    {
+      "name": "yelp_check_wait_time",
+      "description": "Check wait time"
+    },
+    {
+      "name": "yelp_get_deals",
+      "description": "Get deals and offers"
+    }
+  ],
+  "installations": {
+    "npm": {
+      "package_name": "@striderlabs/mcp-yelp",
+      "type": "npm"
+    }
+  },
+  "is_official": false
+}
